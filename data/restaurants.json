@@ -2,8 +2,13 @@
   "restaurants": [{
     "id": 1,
     "name": "Mission Chinese Food",
+    "alt" : "elegant dining room",
     "neighborhood": "Manhattan",
-    "photograph": "1.jpg",
+    "photograph": "1-medium.jpg",
+    "srcset1": "/img/1-extra-small.jpg",
+    "srcset2": "/img/1-small.jpg",
+    "srcset3": "/img/1-medium.jpg",
+    "srcset4": "/img/1-big.jpg",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
       "lat": 40.713829,
@@ -41,8 +46,13 @@
   }, {
     "id": 2,
     "name": "Emily",
+    "alt" : "delicious pizza",
     "neighborhood": "Brooklyn",
-    "photograph": "2.jpg",
+    "photograph": "2-medium.jpg",
+    "srcset1": "/img/2-extra-small.jpg",
+    "srcset2": "/img/2-small.jpg",
+    "srcset3": "/img/2-medium.jpg",
+    "srcset4": "/img/2-big.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
     "latlng": {
       "lat": 40.683555,
@@ -80,8 +90,13 @@
   }, {
     "id": 3,
     "name": "Kang Ho Dong Baekjeong",
+    "alt" : "dining room with industrial style",
     "neighborhood": "Manhattan",
-    "photograph": "3.jpg",
+    "photograph": "3-medium.jpg",
+    "srcset1": "/img/3-extra-small.jpg",
+    "srcset2": "/img/3-small.jpg",
+    "srcset3": "/img/3-medium.jpg",
+    "srcset4": "/img/3-big.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
     "latlng": {
       "lat": 40.747143,
@@ -119,8 +134,13 @@
   }, {
     "id": 4,
     "name": "Katz's Delicatessen",
+    "alt" : "restaurants exterior at night with illuminated sign",
     "neighborhood": "Manhattan",
-    "photograph": "4.jpg",
+    "photograph": "4-medium.jpg",
+    "srcset1": "/img/4-extra-small.jpg",
+    "srcset2": "/img/4-small.jpg",
+    "srcset3": "/img/4-medium.jpg",
+    "srcset4": "/img/4-big.jpg",
     "address": "205 E Houston St, New York, NY 10002",
     "latlng": {
       "lat": 40.722216,
@@ -158,8 +178,13 @@
   }, {
     "id": 5,
     "name": "Roberta's Pizza",
+    "alt" : "dining room with open kitchen in the background",
     "neighborhood": "Brooklyn",
-    "photograph": "5.jpg",
+    "photograph": "5-medium.jpg",
+    "srcset1": "/img/5-extra-small.jpg",
+    "srcset2": "/img/5-small.jpg",
+    "srcset3": "/img/5-medium.jpg",
+    "srcset4": "/img/5-big.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
     "latlng": {
       "lat": 40.705089,
@@ -197,8 +222,13 @@
   }, {
     "id": 6,
     "name": "Hometown BBQ",
+    "alt" : "modern dining room with high ceilings and american design elements",
     "neighborhood": "Brooklyn",
-    "photograph": "6.jpg",
+    "photograph": "6-medium.jpg",
+    "srcset1": "/img/6-extra-small.jpg",
+    "srcset2": "/img/6-small.jpg",
+    "srcset3": "/img/6-medium.jpg",
+    "srcset4": "/img/6-big.jpg",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
     "latlng": {
       "lat": 40.674925,
@@ -236,8 +266,13 @@
   }, {
     "id": 7,
     "name": "Superiority Burger",
+    "alt" : "exterior view of the restaurant with big window looking into dining room",
     "neighborhood": "Manhattan",
-    "photograph": "7.jpg",
+    "photograph": "7-medium.jpg",
+    "srcset1": "/img/7-extra-small.jpg",
+    "srcset2": "/img/7-small.jpg",
+    "srcset3": "/img/7-medium.jpg",
+    "srcset4": "/img/7-big.jpg",
     "address": "430 E 9th St, New York, NY 10009",
     "latlng": {
       "lat": 40.727397,
@@ -275,8 +310,13 @@
   }, {
     "id": 8,
     "name": "The Dutch",
+    "alt" : "The Dutch's street sign",
     "neighborhood": "Manhattan",
-    "photograph": "8.jpg",
+    "photograph": "8-medium.jpg",
+    "srcset1": "/img/8-extra-small.jpg",
+    "srcset2": "/img/8-small.jpg",
+    "srcset3": "/img/8-medium.jpg",
+    "srcset4": "/img/8-big.jpg",
     "address": "131 Sullivan St, New York, NY 10012",
     "latlng": {
       "lat": 40.726584,
@@ -314,8 +354,13 @@
   }, {
     "id": 9,
     "name": "Mu Ramen",
+    "alt" : "guests enjoying food on a long table",
     "neighborhood": "Queens",
-    "photograph": "9.jpg",
+    "photograph": "9-medium.jpg",
+    "srcset1": "/img/9-extra-small.jpg",
+    "srcset2": "/img/9-small.jpg",
+    "srcset3": "/img/9-medium.jpg",
+    "srcset4": "/img/9-big.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
     "latlng": {
       "lat": 40.743797,
@@ -353,8 +398,13 @@
   }, {
     "id": 10,
     "name": "Casa Enrique",
+    "alt" : "very bright modern dining room with bar",
     "neighborhood": "Queens",
-    "photograph": "10.jpg",
+    "photograph": "10-medium.jpg",
+    "srcset1": "/img/10-extra-small.jpg",
+    "srcset2": "/img/10-small.jpg",
+    "srcset3": "/img/10-medium.jpg",
+    "srcset4": "/img/10-big.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",
     "latlng": {
       "lat": 40.743394,

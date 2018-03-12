@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <!-- Set the viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- manifest information -->
+  <meta name="theme-color" content="#252831">
+  <link rel="manifest" href="/manifest.json">
+  <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <!-- Main CSS file -->
   <link rel="stylesheet" href="css/styles.css">
   <title>Restaurant Reviews</title>
 </head>
 
 <body>
   <header>
+  <!-- Make it easy for Screen Reader Users / Keyboard Users to skip the map -->
+    <a href="#neighborhoods-select" class="skip-link">skip map</a>
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
@@ -20,27 +29,35 @@
     </section>
     <section>
       <div class="filter-options">
-        <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
-        </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
-        </select>
+        <h2>Filter Results:</h2>
+        <div class="neighborhood">
+          <!-- Added Labels to make required Action understanable for all Users -->
+          <label for="neighborhoods-select">Select Neighborhood</label>
+          <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+            <option value="all">All Neighborhoods</option>
+          </select>
+        </div>
+        <div class="cuisine">
+          <label for="cuisines-select">Select Cuisine</label>
+          <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+            <option value="all">All Cuisines</option>
+          </select>
+        </div>
       </div>
       <ul id="restaurants-list"></ul>
     </section>
   </main>
 
-  <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
-  <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script>
+  <script charset="utf-8" src="js/dbhelper.js"></script>
+  <script charset="utf-8" src="js/main.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCulV2sObBf0K-Tazo1SZyKzsiG739zGgo&libraries=places&callback=initMap"></script>
+<!-- Service Worker -->
+ <script charset="utf-8" src="js/app.js"></script>
 
 
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    <p>Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.</p>
   </footer>
-
 </body>
 
 </html>

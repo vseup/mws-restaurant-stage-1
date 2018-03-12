@@ -4,6 +4,7 @@ let restaurants,
 var map
 var markers = []
 
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -139,12 +140,21 @@ createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
 
   const image = document.createElement('img');
+  /* add descriptive alt tag */
+  image.alt = restaurant.alt;
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  /* add srcset and sizes for loading the right image size*/
+  image.srcset = restaurant.srcset1 + ' 260w,' + restaurant.srcset2 + ' 316w,' + restaurant.srcset3 + ' 400w,' + restaurant.srcset4 + ' 615w';
+   image.sizes = '(min-width: 1400px) 21vw, (min-width: 1000px) 30vw, (min-width: 700px) 43vw, 90vw';
   li.append(image);
 
   const name = document.createElement('h1');
-  name.innerHTML = restaurant.name;
+  nameLink = document.createElement('a');
+  nameLink.className = "header-link";
+  nameLink.innerHTML = restaurant.name;
+  nameLink.href = DBHelper.urlForRestaurant(restaurant);
+  name.append(nameLink);
   li.append(name);
 
   const neighborhood = document.createElement('p');
@@ -155,9 +165,13 @@ createRestaurantHTML = (restaurant) => {
   address.innerHTML = restaurant.address;
   li.append(address);
 
-  const more = document.createElement('a');
+  const more = document.createElement('button');
+  const moreHref = DBHelper.urlForRestaurant(restaurant);
+  more.onclick = function() {goToRestaurant()};
+  function goToRestaurant(){
+      window.location.href = moreHref;
+  }
   more.innerHTML = 'View Details';
-  more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
 
   return li
