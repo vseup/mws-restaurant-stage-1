@@ -1,5 +1,3 @@
-/*For my service worker I watched this tutorial and edited the code for my project: https://www.youtube.com/watch?v=BfL3pprhnms*/
-
 var cacheName = 'v3';
 var cacheFiles = [
   './',

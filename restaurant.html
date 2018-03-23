@@ -22,32 +22,34 @@
     <!-- Beginning nav -->
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
+      <!-- Beginning breadcrumb -->
+      <ul aria-label="Breadcrumb" id="breadcrumb" >
+        <!-- memo for myself: as the element representing the current page is not a link, aria-current is optional. Else the link to the current page has aria-current set to page.  -->
+        <li><a href="/">Home</a></li>
+      </ul>
+      <!-- End breadcrumb -->
     </nav>
-    <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
-    </ul>
-    <!-- End breadcrumb -->
     <!-- End nav -->
+    <!-- Make it easy for Screen Reader Users / Keyboard Users to skip the map -->
+    <a href="#restaurant-name" class="skip-link">skip map</a>
   </header>
   <!-- End header -->
-
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div role=application id="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
+      <h2 tabindex="0" id="restaurant-name"></h2>
       <div id="restaurant-container-img">
         <img id="restaurant-img">
         <p id="restaurant-cuisine"></p>
       </div>
       <div id="restaurant-container-text">
-        <p id="restaurant-address"></p>
+        <p tabindex="0" id="restaurant-address"></p>
         <table id="restaurant-hours"></table>
       </div>
     </section>

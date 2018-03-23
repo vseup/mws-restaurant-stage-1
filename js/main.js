@@ -149,7 +149,7 @@ createRestaurantHTML = (restaurant) => {
    image.sizes = '(min-width: 1400px) 21vw, (min-width: 1000px) 30vw, (min-width: 700px) 43vw, 90vw';
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   nameLink = document.createElement('a');
   nameLink.className = "header-link";
   nameLink.innerHTML = restaurant.name;
@@ -159,10 +159,12 @@ createRestaurantHTML = (restaurant) => {
 
   const neighborhood = document.createElement('p');
   neighborhood.innerHTML = restaurant.neighborhood;
+  neighborhood.tabIndex = '0';
   li.append(neighborhood);
 
   const address = document.createElement('p');
   address.innerHTML = restaurant.address;
+  address.tabIndex = '0';
   li.append(address);
 
   const more = document.createElement('button');

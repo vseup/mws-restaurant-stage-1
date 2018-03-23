@@ -2,7 +2,7 @@
   "restaurants": [{
     "id": 1,
     "name": "Mission Chinese Food",
-    "alt" : "elegant dining room",
+    "alt" : "An image of Mission Chinese Food Restaurant's elegant dining room in Manhatten",
     "neighborhood": "Manhattan",
     "photograph": "1-medium.jpg",
     "srcset1": "/img/1-extra-small.jpg",
@@ -46,7 +46,7 @@
   }, {
     "id": 2,
     "name": "Emily",
-    "alt" : "delicious pizza",
+    "alt" : "An image of a delicious pizza served in Emily Restaurant in Brooklyn",
     "neighborhood": "Brooklyn",
     "photograph": "2-medium.jpg",
     "srcset1": "/img/2-extra-small.jpg",
@@ -90,7 +90,7 @@
   }, {
     "id": 3,
     "name": "Kang Ho Dong Baekjeong",
-    "alt" : "dining room with industrial style",
+    "alt" : "An image of the industrial styled dining room in Kang Ho Dong Baekjeong Restaurant in Manhatten",
     "neighborhood": "Manhattan",
     "photograph": "3-medium.jpg",
     "srcset1": "/img/3-extra-small.jpg",
@@ -134,7 +134,7 @@
   }, {
     "id": 4,
     "name": "Katz's Delicatessen",
-    "alt" : "restaurants exterior at night with illuminated sign",
+    "alt" : "An image of Katz's Delicatessen Restaurant's exterior at night with illuminated sign in Manhatten",
     "neighborhood": "Manhattan",
     "photograph": "4-medium.jpg",
     "srcset1": "/img/4-extra-small.jpg",
@@ -178,7 +178,7 @@
   }, {
     "id": 5,
     "name": "Roberta's Pizza",
-    "alt" : "dining room with open kitchen in the background",
+    "alt" : "An image of Roberta's Pizza Restaurant's dining room with open kitchen in the background in Brooklyn",
     "neighborhood": "Brooklyn",
     "photograph": "5-medium.jpg",
     "srcset1": "/img/5-extra-small.jpg",
@@ -222,7 +222,7 @@
   }, {
     "id": 6,
     "name": "Hometown BBQ",
-    "alt" : "modern dining room with high ceilings and american design elements",
+    "alt" : "An image of Hometown BBQ Restaurant's modern dining room with high ceilings and american design elements in Brooklyn",
     "neighborhood": "Brooklyn",
     "photograph": "6-medium.jpg",
     "srcset1": "/img/6-extra-small.jpg",
@@ -266,7 +266,7 @@
   }, {
     "id": 7,
     "name": "Superiority Burger",
-    "alt" : "exterior view of the restaurant with big window looking into dining room",
+    "alt" : "An image of the exterior view of the Superiority Burger Restaurant with big window looking into dining room in Manhatten",
     "neighborhood": "Manhattan",
     "photograph": "7-medium.jpg",
     "srcset1": "/img/7-extra-small.jpg",
@@ -310,7 +310,7 @@
   }, {
     "id": 8,
     "name": "The Dutch",
-    "alt" : "The Dutch's street sign",
+    "alt" : "An image of The Dutch's Restaurant's street sign in Manhatten",
     "neighborhood": "Manhattan",
     "photograph": "8-medium.jpg",
     "srcset1": "/img/8-extra-small.jpg",
@@ -354,7 +354,7 @@
   }, {
     "id": 9,
     "name": "Mu Ramen",
-    "alt" : "guests enjoying food on a long table",
+    "alt" : "An image of Mu Ramen Restaurant's guests enjoying food on a long table in Queens",
     "neighborhood": "Queens",
     "photograph": "9-medium.jpg",
     "srcset1": "/img/9-extra-small.jpg",
@@ -398,7 +398,7 @@
   }, {
     "id": 10,
     "name": "Casa Enrique",
-    "alt" : "very bright modern dining room with bar",
+    "alt" : "An image of the very bright modern dining room with bar in Casa Enrique Restaurant in Queens",
     "neighborhood": "Queens",
     "photograph": "10-medium.jpg",
     "srcset1": "/img/10-extra-small.jpg",
